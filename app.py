@@ -1,8 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-from apikey import google_gemini_api_key , openai_api_keys
-import openai
-openai.api_key ="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"
+from apikey import google_gemini_api_key
 genai.configure(api_key=google_gemini_api_key)
 
 
